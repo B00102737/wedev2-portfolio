@@ -1,0 +1,61 @@
+li a {
+    display: block;
+    color: red;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+ nav a :hover {
+    background-color: #111;
+}
+li a :hover {
+	background-color: #111;
+}
+
+nav ul li{
+	float: left;
+	list-style-type: none;
+}
+nav a:link, a:visited {
+	display: block;
+	font-weight: bold;
+	color: black;
+	width: 500px;
+	background-color: red;
+	text-align: center;
+	padding: 4px;
+	text-decoration: none;
+	text-transform: uppercase;
+	border: 1px solid green;
+}
+
+nav{
+	text-align: center;
+	margin : auto;
+	width: 700px;
+	color: bur;
+}
+h2{
+	color: black;
+	font-size: 50px;
+}
+ul{
+	color: black;
+} 
+p{
+	text-align: center;
+	font-size: 30px;
+	font-family: sans-serif;
+}
+body{
+	background-color: lightblue;
+}
+img{
+	text-align: center;
+	max-height: 500px;
+max-width: 500px;
+width: 500px;
+height: 500px;
+}
